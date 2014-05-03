@@ -2,7 +2,7 @@ import sys
 import argparse
 
 APP_VERSION = '0.0.1'
-APP_NAME = '{{cookicutter.app_name}}'
+APP_NAME = '{{cookiecutter.app_name}}'
 APP_DESCRIPTION = 'Application to ...'
 HELP_EPILOG = ''
 
@@ -19,7 +19,7 @@ def make_parser():
     parser.add_argument('-t', '--true', action='store_const', const=True)
     parser.add_argument('-f', '--false', action='store_const', const=False)
     parser.add_argument('--verbose', '-v', action='count')
-    parser.add_argument('age', type=int, required=True)
+    parser.add_argument('age', type=int)
     parser.add_argument('move', choices=['rock', 'paper', 'scissors'])
 
     parser.add_argument('--version', action='version',

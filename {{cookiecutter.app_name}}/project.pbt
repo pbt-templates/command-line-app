@@ -1,8 +1,8 @@
 organization: python
-name: {{cookicutter.app_name}}
+name: {{cookiecutter.app_name}}
 version: 0.0.1
 description: a simple command line app
-url: https://github.com/me/{{cookicutter.app_name}}
+url: https://github.com/me/{{cookiecutter.app_name}}
 
 license:
     name: Apache 2.0
@@ -13,5 +13,5 @@ authors:
 
 dependencies:
 
-entry_point: ["{{cookicutter.app_name}}", "main"]
+entry_point: ["{{cookiecutter.app_name}}", "main"]
 

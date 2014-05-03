@@ -1,4 +1,4 @@
-import {{cookicutter.app_name}} as app
+import {{cookiecutter.app_name}} as app
 import unittest
 
 class AppTestCase(unittest.TestCase):
