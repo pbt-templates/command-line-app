@@ -1,15 +1,15 @@
 organization: python
 name: {{cookiecutter.app_name}}
-version: 0.0.1
+version: {{cookiecutter.version}}
 description: a simple command line app
-url: https://github.com/me/{{cookiecutter.app_name}}
+url: https://github.com/{{cookiecutter.author}}/{{cookiecutter.app_name}}
 
 license:
-    name: Apache 2.0
-    url: http://opensource.org/licenses/Apache-2.0
+    name: {{cookiecutter.license}}
+    url: http://url-to/{{cookiecutter.license}}
 
 authors:
-    - Me <me@example.com>
+    - {{cookiecutter.author}} <{{cookiecutter.author_mail}}>
 
 dependencies:
 

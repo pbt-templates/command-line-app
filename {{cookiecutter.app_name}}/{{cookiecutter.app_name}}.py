@@ -1,7 +1,7 @@
 import sys
 import argparse
 
-APP_VERSION = '0.0.1'
+APP_VERSION = '{{cookiecutter.version}}'
 APP_NAME = '{{cookiecutter.app_name}}'
 APP_DESCRIPTION = 'Application to ...'
 HELP_EPILOG = ''
