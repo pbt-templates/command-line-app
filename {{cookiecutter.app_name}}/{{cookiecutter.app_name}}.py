@@ -26,7 +26,7 @@ def make_parser():
             version='%(prog)s ' + APP_VERSION)
 
 
-    return parse
+    return parser
 
 def parse_args(args_to_parse=None):
     '''return the arguments passed to the app using the parser defined by
